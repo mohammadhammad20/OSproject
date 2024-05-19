@@ -6,13 +6,13 @@
 
 class Process {
 public:
-    int pid;  // Process ID
-    int bt;   // Burst Time
-    int art;  // Arrival Time
-    int start_time; // Start time when the process begins execution
-    int completion_time; // Completion time when the process finishes execution
-    int waiting_time; // Waiting time for the process
-    int turnaround_time; // Turnaround time for the process
+    int pid;  
+    int bt;   
+    int art;  
+    int start_time; 
+    int completion_time; 
+    int waiting_time; 
+    int turnaround_time; 
 
     Process(int pid, int bt, int art) {
         this->pid = pid;
